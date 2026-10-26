@@ -12,7 +12,14 @@ This records the source revision prepared after the first working classroom depl
 - Neutral interpretations distinguish all-midpoint, opposing choices, and weak one-sided choices.
 - Repository ignore rules exclude `.env.local`, deployment metadata, dependencies, build output, and Supabase temporary metadata.
 
-## Not verified here
+## Verified 2026-10-27 (networked workspace)
+
+- `20261026010000_public_hosting.sql` applied to the production Supabase project with `supabase db push`; the first migration was already recorded and no data was reset.
+- `node scripts/verify-app.mjs` against a local production build connected to that DB: 60 API checks passed, TEST rooms only, hosting switch restored to closed.
+- Headless Chrome, 360 px phone and 1280 px projector: quiz, KO/EN switch keeping answers, LLL result with the reading panels, pre-reveal stats, admin reveal, projector stats. No horizontal scroll.
+- Public hosting in the browser: open switch → create room at `/host` → manage with the issued key → restore on a separate browser profile with the key → the same key gets 401 on an admin room → switch restored to closed.
+
+## Not verified in the first workspace (kept for the record)
 
 - Browser screenshot/layout interaction. Browser tooling failed to initialize in this workspace.
 - Live API/DB integration of the new public-hosting feature. Starting the local HTTP server was denied with `listen EPERM`; outbound GitHub DNS and local browser-agent connections were unavailable.
