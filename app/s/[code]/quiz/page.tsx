@@ -1,5 +1,6 @@
 'use client';
 import { useParams, useRouter } from 'next/navigation';
+import { PrefetchKind } from 'next/dist/client/components/router-reducer/router-reducer-types';
 import { useEffect, useState } from 'react';
 import { Header } from '@/components/ui';
 import { DEMO, useRoom } from '@/lib/client';
@@ -16,6 +17,9 @@ export default function Quiz() {
   const [missing, setMissing] = useState<number | null>(null);
 
   useEffect(() => { if (room && (!room.group || !room.token)) router.replace(`/s/${code}`); }, [room, code, router]);
+  // Load the result page before the last answer so a dropped connection still reaches the save-retry screen.
+  const onLast = room?.idx === questions.length - 1;
+  useEffect(() => { if (onLast) router.prefetch(`/s/${code}/result`, { kind: PrefetchKind.FULL }); }, [onLast, code, router]);
   if (!room || !room.group) return <main><Header demo={code === DEMO} /></main>;
 
   const idx = Math.min(Math.max(room.idx, 0), questions.length - 1);

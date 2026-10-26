@@ -18,7 +18,7 @@ export default function Home() {
         const c = String(new FormData(e.currentTarget).get('code') ?? '').trim().toUpperCase();
         if (c) router.push(`/s/${c}`);
       }}>
-        <label className="field"><span>{t(lang, 'roomCode')}</span><input name="code" maxLength={6} autoCapitalize="characters" autoComplete="off" required /></label>
+        <label className="field"><span>{t(lang, 'roomCode')}</span><input name="code" maxLength={12} autoCapitalize="characters" autoComplete="off" required /></label>
         <button className="primary">{t(lang, 'enter')}</button>
       </form>
       <p><Link href="/s/DEMO">{t(lang, 'tryDemo')}</Link></p>
