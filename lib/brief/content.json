@@ -1,0 +1,1237 @@
+{
+  "version": "2.0.1",
+  "title": {
+    "ko": "팀플에서 나는 무엇부터 할까?",
+    "en": "What do I do first in a team?"
+  },
+  "subtitle": {
+    "ko": "18개의 상황으로 보는 리더십·매니지먼트 행동 선택",
+    "en": "Explore your leadership and management preferences in 18 situations"
+  },
+  "intro": {
+    "ko": "두 행동 모두 중요할 수 있어요. 실제로 먼저 할 쪽이 있다면 그쪽에 가까운 숫자를 골라 주세요. 우선순위를 가리기 어려울 만큼 비슷할 때는 4를 골라 주세요.",
+    "en": "Both actions may matter. If you would prioritize one, choose a number toward that side. Choose 4 when their priority is too similar for you to distinguish."
+  },
+  "notice": {
+    "ko": "Kotter의 관점을 바탕으로 만든 수업 활동입니다. 성격이나 능력을 진단하는 검사는 아닙니다.",
+    "en": "A classroom activity inspired by Kotter, not a validated personality or ability assessment."
+  },
+  "axes": [
+    {
+      "id": "direction",
+      "name": {
+        "ko": "방향을 정하는 방식",
+        "en": "How you set direction"
+      },
+      "question": {
+        "ko": "무엇을 할지 정할 때, 무엇부터 꺼내나요?",
+        "en": "When deciding what to do, where do you start?"
+      },
+      "leadership": {
+        "ko": "방향 먼저",
+        "en": "Direction first"
+      },
+      "management": {
+        "ko": "계획 먼저",
+        "en": "Planning first"
+      },
+      "leadershipConcept": "Setting a direction",
+      "managementConcept": "Planning and budgeting"
+    },
+    {
+      "id": "people",
+      "name": {
+        "ko": "사람을 모으는 방식",
+        "en": "How you bring people together"
+      },
+      "question": {
+        "ko": "사람들과 함께 움직이려면, 무엇부터 맞추나요?",
+        "en": "When working with people, what do you align first?"
+      },
+      "leadership": {
+        "ko": "공감대 먼저",
+        "en": "Shared purpose first"
+      },
+      "management": {
+        "ko": "역할 먼저",
+        "en": "Roles first"
+      },
+      "leadershipConcept": "Aligning people",
+      "managementConcept": "Organizing and staffing"
+    },
+    {
+      "id": "execution",
+      "name": {
+        "ko": "실행을 이어 가는 방식",
+        "en": "How you sustain execution"
+      },
+      "question": {
+        "ko": "일이 멈췄을 때, 무엇부터 다시 움직이나요?",
+        "en": "When progress stalls, what do you address first?"
+      },
+      "leadership": {
+        "ko": "동기 먼저",
+        "en": "Motivation first"
+      },
+      "management": {
+        "ko": "점검 먼저",
+        "en": "Monitoring first"
+      },
+      "leadershipConcept": "Motivating and inspiring",
+      "managementConcept": "Controlling and problem solving"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "order": 1,
+      "axis": "direction",
+      "scene": {
+        "ko": "팀플 첫 회의",
+        "en": "The first project meeting"
+      },
+      "prompt": {
+        "ko": "새 팀플이 시작됐어요. 첫 회의에서 내가 먼저 꺼낼 이야기는?",
+        "en": "A new team project is starting. What would you bring up first at the first meeting?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "먼저 추구할 가치와 변화의 방향을 정하는 선택이에요.",
+          "en": "This starts by identifying the value and direction of the change you want to make."
+        },
+        "M": {
+          "ko": "시간·비용·작업을 구체적인 실행 계획으로 만드는 선택이에요.",
+          "en": "This starts by turning time, costs, and tasks into a workable plan."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "L",
+          "text": {
+            "ko": "이번 과제에서 우리가 보여 주고 싶은 관점부터 정하자.",
+            "en": "Let’s decide what perspective we want this project to communicate."
+          }
+        },
+        "right": {
+          "mode": "M",
+          "text": {
+            "ko": "제출 조건을 보고 일정과 필요한 작업부터 정하자.",
+            "en": "Let’s review the requirements and plan the tasks and timeline."
+          }
+        }
+      }
+    },
+    {
+      "id": "q02",
+      "order": 2,
+      "axis": "people",
+      "scene": {
+        "ko": "새로운 협업",
+        "en": "A new collaboration"
+      },
+      "prompt": {
+        "ko": "서로 다른 동아리가 공동 행사를 준비해요. 처음 모인 자리에서 나는?",
+        "en": "Two student clubs are preparing a joint event. At their first meeting, what would you do first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "사람들이 같은 방향에 공감하고 함께 움직이도록 연결하는 선택이에요.",
+          "en": "This starts by building a shared understanding and commitment to move together."
+        },
+        "M": {
+          "ko": "역할·권한·협업 구조를 정리하는 선택이에요.",
+          "en": "This starts by clarifying roles, authority, and how people work together."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "M",
+          "text": {
+            "ko": "각 동아리의 담당 범위와 의사결정 담당자를 정한다.",
+            "en": "Define each club’s responsibilities and who makes decisions."
+          }
+        },
+        "right": {
+          "mode": "L",
+          "text": {
+            "ko": "각 동아리가 바라는 것을 듣고 함께 추구할 목표를 맞춘다.",
+            "en": "Listen to what each club wants and agree on a shared goal."
+          }
+        }
+      }
+    },
+    {
+      "id": "q03",
+      "order": 3,
+      "axis": "execution",
+      "scene": {
+        "ko": "멈춘 단체 채팅방",
+        "en": "A quiet group chat"
+      },
+      "prompt": {
+        "ko": "팀 채팅방이 조용해지고 작업도 멈췄어요. 내가 먼저 할 일은?",
+        "en": "The team chat has gone quiet, and work has stalled. What would you do first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "일의 의미와 참여 의욕을 다시 만드는 선택이에요.",
+          "en": "This starts by rebuilding meaning, ownership, and motivation."
+        },
+        "M": {
+          "ko": "실제 진행과 계획의 차이를 찾아 해결하는 선택이에요.",
+          "en": "This starts by comparing progress with the plan and resolving gaps."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "L",
+          "text": {
+            "ko": "팀원들이 어디에서 의욕을 잃었는지 듣고 의미 있는 작은 목표를 찾는다.",
+            "en": "Ask where people lost motivation and find a meaningful small goal."
+          }
+        },
+        "right": {
+          "mode": "M",
+          "text": {
+            "ko": "어느 작업이 막혔는지 확인하고 해결할 담당자와 기한을 정한다.",
+            "en": "Identify the blocked task and assign someone and a deadline to resolve it."
+          }
+        }
+      }
+    },
+    {
+      "id": "q04",
+      "order": 4,
+      "axis": "direction",
+      "scene": {
+        "ko": "예산이 줄었다",
+        "en": "A budget cut"
+      },
+      "prompt": {
+        "ko": "행사 예산이 줄어 기존 안을 그대로 할 수 없어요. 나는 먼저?",
+        "en": "The event budget has been cut, so the original plan is no longer possible. What would you do first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "먼저 추구할 가치와 변화의 방향을 정하는 선택이에요.",
+          "en": "This starts by identifying the value and direction of the change you want to make."
+        },
+        "M": {
+          "ko": "시간·비용·작업을 구체적인 실행 계획으로 만드는 선택이에요.",
+          "en": "This starts by turning time, costs, and tasks into a workable plan."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "M",
+          "text": {
+            "ko": "남은 예산으로 가능한 항목과 비용을 다시 계산한다.",
+            "en": "Recalculate which activities are affordable within the remaining budget."
+          }
+        },
+        "right": {
+          "mode": "L",
+          "text": {
+            "ko": "이 행사에서 꼭 남겨야 할 경험이 무엇인지 다시 정한다.",
+            "en": "Reconsider the experience this event most needs to deliver."
+          }
+        }
+      }
+    },
+    {
+      "id": "q05",
+      "order": 5,
+      "axis": "people",
+      "scene": {
+        "ko": "새 협업 도구 도입",
+        "en": "Introducing a collaboration tool"
+      },
+      "prompt": {
+        "ko": "팀에 새 협업 도구를 도입하려고 해요. 사람들이 쓰게 하려면 먼저?",
+        "en": "You want the team to adopt a new collaboration tool. What would you do first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "사람들이 같은 방향에 공감하고 함께 움직이도록 연결하는 선택이에요.",
+          "en": "This starts by building a shared understanding and commitment to move together."
+        },
+        "M": {
+          "ko": "역할·권한·협업 구조를 정리하는 선택이에요.",
+          "en": "This starts by clarifying roles, authority, and how people work together."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "L",
+          "text": {
+            "ko": "팀원들이 겪는 불편을 듣고 이 도구를 쓸 이유에 공감하게 한다.",
+            "en": "Discuss the team’s frustrations and build agreement on why the tool is worth using."
+          }
+        },
+        "right": {
+          "mode": "M",
+          "text": {
+            "ko": "파일을 올리고 확인하는 절차와 담당을 정해 사용 중 혼선을 줄인다.",
+            "en": "Define how files are uploaded and reviewed, and who is responsible, to reduce confusion when using the tool."
+          }
+        }
+      }
+    },
+    {
+      "id": "q06",
+      "order": 6,
+      "axis": "execution",
+      "scene": {
+        "ko": "반복되는 실수",
+        "en": "Repeated mistakes"
+      },
+      "prompt": {
+        "ko": "행사 운영에서 같은 실수가 반복돼요. 내가 먼저 제안할 일은?",
+        "en": "The same mistakes keep happening during event operations. What would you suggest first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "일의 의미와 참여 의욕을 다시 만드는 선택이에요.",
+          "en": "This starts by rebuilding meaning, ownership, and motivation."
+        },
+        "M": {
+          "ko": "실제 진행과 계획의 차이를 찾아 해결하는 선택이에요.",
+          "en": "This starts by comparing progress with the plan and resolving gaps."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "M",
+          "text": {
+            "ko": "실수가 생기는 단계를 찾아 확인 절차를 고친다.",
+            "en": "Find the step where mistakes occur and improve the checking procedure."
+          }
+        },
+        "right": {
+          "mode": "L",
+          "text": {
+            "ko": "팀원들이 개선안을 직접 제안하고 실행해 볼 의욕을 북돋운다.",
+            "en": "Encourage team members to propose improvements they want to try and take ownership of them."
+          }
+        }
+      }
+    },
+    {
+      "id": "q07",
+      "order": 7,
+      "axis": "direction",
+      "scene": {
+        "ko": "작년 행사 다시 하기",
+        "en": "Running an annual event"
+      },
+      "prompt": {
+        "ko": "작년 행사를 올해도 열기로 했어요. 준비를 시작하며 나는 먼저?",
+        "en": "Your team will run last year’s event again. As preparations begin, what would you do first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "먼저 추구할 가치와 변화의 방향을 정하는 선택이에요.",
+          "en": "This starts by identifying the value and direction of the change you want to make."
+        },
+        "M": {
+          "ko": "시간·비용·작업을 구체적인 실행 계획으로 만드는 선택이에요.",
+          "en": "This starts by turning time, costs, and tasks into a workable plan."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "L",
+          "text": {
+            "ko": "작년 방식을 그대로 이어 가도 되는지, 올해 참가자가 원하는 것을 살핀다.",
+            "en": "Check what this year’s participants want and whether the old approach still fits."
+          }
+        },
+        "right": {
+          "mode": "M",
+          "text": {
+            "ko": "작년 기록을 바탕으로 올해 일정과 자원 계획을 세운다.",
+            "en": "Use last year’s records to plan this year’s schedule and resources."
+          }
+        }
+      }
+    },
+    {
+      "id": "q08",
+      "order": 8,
+      "axis": "people",
+      "scene": {
+        "ko": "결과물이 따로 논다",
+        "en": "Work that does not fit together"
+      },
+      "prompt": {
+        "ko": "팀원들이 각자 열심히 하는데 결과물의 방향이 달라요. 나는 먼저?",
+        "en": "Everyone is working hard, but their outputs are heading in different directions. What would you do first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "사람들이 같은 방향에 공감하고 함께 움직이도록 연결하는 선택이에요.",
+          "en": "This starts by building a shared understanding and commitment to move together."
+        },
+        "M": {
+          "ko": "역할·권한·협업 구조를 정리하는 선택이에요.",
+          "en": "This starts by clarifying roles, authority, and how people work together."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "M",
+          "text": {
+            "ko": "파트별 책임과 검토 담당을 정하고 산출물 기준을 문서로 맞춘다.",
+            "en": "Define responsibilities and reviewers, and document the requirements for each output."
+          }
+        },
+        "right": {
+          "mode": "L",
+          "text": {
+            "ko": "최종 결과물이 어떤 모습이어야 하는지 함께 이야기하고 같은 그림을 그린다.",
+            "en": "Discuss what the final result should look like and build a shared picture."
+          }
+        }
+      }
+    },
+    {
+      "id": "q09",
+      "order": 9,
+      "axis": "execution",
+      "scene": {
+        "ko": "지친 팀원들",
+        "en": "A tired team"
+      },
+      "prompt": {
+        "ko": "프로젝트가 길어져 팀원들이 지쳐 있어요. 나는 먼저?",
+        "en": "The project has been running for a long time, and the team is tired. What would you do first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "일의 의미와 참여 의욕을 다시 만드는 선택이에요.",
+          "en": "This starts by rebuilding meaning, ownership, and motivation."
+        },
+        "M": {
+          "ko": "실제 진행과 계획의 차이를 찾아 해결하는 선택이에요.",
+          "en": "This starts by comparing progress with the plan and resolving gaps."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "L",
+          "text": {
+            "ko": "지금까지 만든 변화와 각자의 기여를 돌아보며 계속할 이유를 나눈다.",
+            "en": "Reflect on the difference the team has made and each person’s contribution to renew their reasons to continue."
+          }
+        },
+        "right": {
+          "mode": "M",
+          "text": {
+            "ko": "계획과 실제 진행을 비교하고, 지연과 과부하를 줄이도록 작업 방식을 조정한다.",
+            "en": "Compare actual progress with the plan and adjust how the work is done to reduce delays and overload."
+          }
+        }
+      }
+    },
+    {
+      "id": "q10",
+      "order": 10,
+      "axis": "direction",
+      "scene": {
+        "ko": "경쟁 팀의 새 아이디어",
+        "en": "An unexpected competing idea"
+      },
+      "prompt": {
+        "ko": "경쟁 팀이 예상 못 한 아이디어를 내놨어요. 대응 회의에서 나는 먼저?",
+        "en": "A competing team has introduced an unexpected idea. What would you discuss first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "먼저 추구할 가치와 변화의 방향을 정하는 선택이에요.",
+          "en": "This starts by identifying the value and direction of the change you want to make."
+        },
+        "M": {
+          "ko": "시간·비용·작업을 구체적인 실행 계획으로 만드는 선택이에요.",
+          "en": "This starts by turning time, costs, and tasks into a workable plan."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "M",
+          "text": {
+            "ko": "남은 시간과 인력으로 수정할 수 있는 범위를 계산한다.",
+            "en": "Work out what can be changed with the time and people available."
+          }
+        },
+        "right": {
+          "mode": "L",
+          "text": {
+            "ko": "우리가 누구에게 어떤 가치를 주려는지 돌아보고 방향을 다시 판단한다.",
+            "en": "Revisit whom we want to help and what value we offer, then reconsider our direction."
+          }
+        }
+      }
+    },
+    {
+      "id": "q11",
+      "order": 11,
+      "axis": "people",
+      "scene": {
+        "ko": "새로 들어온 팀원",
+        "en": "A new team member"
+      },
+      "prompt": {
+        "ko": "프로젝트 중간에 새 팀원이 합류했어요. 처음 설명할 내용은?",
+        "en": "A new member joins halfway through the project. What would you explain first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "사람들이 같은 방향에 공감하고 함께 움직이도록 연결하는 선택이에요.",
+          "en": "This starts by building a shared understanding and commitment to move together."
+        },
+        "M": {
+          "ko": "역할·권한·협업 구조를 정리하는 선택이에요.",
+          "en": "This starts by clarifying roles, authority, and how people work together."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "L",
+          "text": {
+            "ko": "우리가 이 일을 시작한 이유와 이루고 싶은 변화다.",
+            "en": "Why we started this work and the change we hope to make."
+          }
+        },
+        "right": {
+          "mode": "M",
+          "text": {
+            "ko": "현재 업무 구조와 새 팀원이 맡을 일, 협업할 담당자다.",
+            "en": "How the work is organized, their responsibilities, and whom they will work with."
+          }
+        }
+      }
+    },
+    {
+      "id": "q12",
+      "order": 12,
+      "axis": "execution",
+      "scene": {
+        "ko": "첫 시도는 실패",
+        "en": "A disappointing first attempt"
+      },
+      "prompt": {
+        "ko": "새로운 시도가 기대한 성과를 내지 못했어요. 다음 회의에서 나는 먼저?",
+        "en": "A new initiative did not produce the results you hoped for. At the next meeting, what would you do first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "일의 의미와 참여 의욕을 다시 만드는 선택이에요.",
+          "en": "This starts by rebuilding meaning, ownership, and motivation."
+        },
+        "M": {
+          "ko": "실제 진행과 계획의 차이를 찾아 해결하는 선택이에요.",
+          "en": "This starts by comparing progress with the plan and resolving gaps."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "M",
+          "text": {
+            "ko": "목표와 실제 결과의 차이를 살펴 원인을 찾고 다음 절차를 고친다.",
+            "en": "Compare results with the target, identify causes, and improve the next process."
+          }
+        },
+        "right": {
+          "mode": "L",
+          "text": {
+            "ko": "시도하며 얻은 배움과 기여를 짚고 다시 도전할 힘을 모은다.",
+            "en": "Recognize contributions and lessons learned to help people feel ready to try again."
+          }
+        }
+      }
+    },
+    {
+      "id": "q13",
+      "order": 13,
+      "axis": "direction",
+      "scene": {
+        "ko": "욕심이 많아진 프로젝트",
+        "en": "Too many ideas"
+      },
+      "prompt": {
+        "ko": "팀 아이디어가 늘어나 무엇을 남길지 정해야 해요. 나는 먼저?",
+        "en": "The team has more ideas than it can pursue. What would you do first to decide what stays?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "먼저 추구할 가치와 변화의 방향을 정하는 선택이에요.",
+          "en": "This starts by identifying the value and direction of the change you want to make."
+        },
+        "M": {
+          "ko": "시간·비용·작업을 구체적인 실행 계획으로 만드는 선택이에요.",
+          "en": "This starts by turning time, costs, and tasks into a workable plan."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "L",
+          "text": {
+            "ko": "우리가 풀려던 핵심 문제를 다시 정하고 아이디어를 고른다.",
+            "en": "Revisit the core problem we want to solve and choose ideas that address it."
+          }
+        },
+        "right": {
+          "mode": "M",
+          "text": {
+            "ko": "각 아이디어에 드는 시간과 비용을 비교하고 실행할 범위를 고른다.",
+            "en": "Compare the time and cost of each idea and choose a feasible scope."
+          }
+        }
+      }
+    },
+    {
+      "id": "q14",
+      "order": 14,
+      "axis": "people",
+      "scene": {
+        "ko": "두 파트가 부딪힌다",
+        "en": "Two functions in conflict"
+      },
+      "prompt": {
+        "ko": "디자인 파트와 개발 파트가 서로 다른 요구를 해요. 나는 먼저?",
+        "en": "The design and development teams want different things. What would you do first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "사람들이 같은 방향에 공감하고 함께 움직이도록 연결하는 선택이에요.",
+          "en": "This starts by building a shared understanding and commitment to move together."
+        },
+        "M": {
+          "ko": "역할·권한·협업 구조를 정리하는 선택이에요.",
+          "en": "This starts by clarifying roles, authority, and how people work together."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "M",
+          "text": {
+            "ko": "업무 경계와 결정 권한을 정하고 요청을 주고받을 절차를 만든다.",
+            "en": "Define work boundaries, decision rights, and a process for handling requests."
+          }
+        },
+        "right": {
+          "mode": "L",
+          "text": {
+            "ko": "각 파트의 우려를 듣고 둘 다 동의할 수 있는 프로젝트 목표를 찾는다.",
+            "en": "Listen to each side’s concerns and find a project goal both can support."
+          }
+        }
+      }
+    },
+    {
+      "id": "q15",
+      "order": 15,
+      "axis": "execution",
+      "scene": {
+        "ko": "회의 뒤에도 그대로",
+        "en": "No change after the meeting"
+      },
+      "prompt": {
+        "ko": "개선 회의를 했지만 이후 행동이 달라지지 않았어요. 나는 먼저?",
+        "en": "You held a meeting to improve how the team works, but nothing has changed. What would you do first?"
+      },
+      "explanation": {
+        "L": {
+          "ko": "일의 의미와 참여 의욕을 다시 만드는 선택이에요.",
+          "en": "This starts by rebuilding meaning, ownership, and motivation."
+        },
+        "M": {
+          "ko": "실제 진행과 계획의 차이를 찾아 해결하는 선택이에요.",
+          "en": "This starts by comparing progress with the plan and resolving gaps."
+        }
+      },
+      "endpoints": {
+        "left": {
+          "mode": "L",
+          "text": {
+            "ko": "각자가 바꾸고 싶은 점을 직접 고르게 하고 실천할 이유를 함께 찾는다.",
+            "en": "Let people choose a change they want to make and explore why it matters to them."
+          }
+        },
+        "right": {
+          "mode": "M",
+          "text": {
+            "ko": "합의한 행동의 실행 여부를 확인하고 막힌 부분의 해결 방법을 정한다.",
+            "en": "Check whether the agreed actions happened and work out how to remove the obstacles."
+          }
+        }
+      }
+    },
+    {
+      "id": "q16",
+      "order": 16,
+      "axis": "direction",
+      "scene": {
+        "ko": "추가 지원이 생겼다",
+        "en": "Unexpected support"
+      },
+      "prompt": {
+        "ko": "계획에 없던 추가 지원을 받았어요. 어디에 쓸지 정할 때 나는 먼저?",
+        "en": "Your project receives unexpected extra support. How would you first decide what to do with it?"
+      },
+      "endpoints": {
+        "left": {
+          "mode": "M",
+          "text": {
+            "ko": "지원 규모에 맞춰 항목별 배분과 실행 계획을 짠다.",
+            "en": "Allocate the support across tasks and make an implementation plan."
+          }
+        },
+        "right": {
+          "mode": "L",
+          "text": {
+            "ko": "새로 가능해진 변화 중 우리가 추구할 방향을 정한다.",
+            "en": "Decide which newly possible change the team should pursue."
+          }
+        }
+      },
+      "explanation": {
+        "L": {
+          "ko": "먼저 추구할 가치와 변화의 방향을 정하는 선택이에요.",
+          "en": "This starts by identifying the value and direction of the change you want to make."
+        },
+        "M": {
+          "ko": "시간·비용·작업을 구체적인 실행 계획으로 만드는 선택이에요.",
+          "en": "This starts by turning time, costs, and tasks into a workable plan."
+        }
+      }
+    },
+    {
+      "id": "q17",
+      "order": 17,
+      "axis": "people",
+      "scene": {
+        "ko": "다른 조직의 협조가 필요하다",
+        "en": "Help from another organization"
+      },
+      "prompt": {
+        "ko": "프로젝트에 다른 동아리의 협조가 필요해요. 나는 먼저?",
+        "en": "Your project needs help from another student club. What would you do first?"
+      },
+      "endpoints": {
+        "left": {
+          "mode": "L",
+          "text": {
+            "ko": "상대 동아리에도 이 일이 왜 의미가 있는지 이야기하고 뜻을 모은다.",
+            "en": "Discuss why the project matters to their club too and build their support."
+          }
+        },
+        "right": {
+          "mode": "M",
+          "text": {
+            "ko": "필요한 협조 항목과 연락 창구, 각자의 책임을 정리한다.",
+            "en": "Define the help needed, points of contact, and each side’s responsibilities."
+          }
+        }
+      },
+      "explanation": {
+        "L": {
+          "ko": "사람들이 같은 방향에 공감하고 함께 움직이도록 연결하는 선택이에요.",
+          "en": "This starts by building a shared understanding and commitment to move together."
+        },
+        "M": {
+          "ko": "역할·권한·협업 구조를 정리하는 선택이에요.",
+          "en": "This starts by clarifying roles, authority, and how people work together."
+        }
+      }
+    },
+    {
+      "id": "q18",
+      "order": 18,
+      "axis": "execution",
+      "scene": {
+        "ko": "마감이 앞당겨졌다",
+        "en": "An earlier deadline"
+      },
+      "prompt": {
+        "ko": "프로젝트 중간에 외부 일정이 바뀌어 마감이 앞당겨졌어요. 나는 먼저?",
+        "en": "Halfway through the project, an external schedule change brings the deadline forward. What would you do first?"
+      },
+      "endpoints": {
+        "left": {
+          "mode": "M",
+          "text": {
+            "ko": "현재 진행 상황에서 병목을 찾아, 남은 기간에 맞게 작업 순서를 조정한다.",
+            "en": "Identify bottlenecks in current progress and adjust the sequence of work to fit the time remaining."
+          }
+        },
+        "right": {
+          "mode": "L",
+          "text": {
+            "ko": "팀원들이 걱정하는 점을 듣고, 각자의 기여를 짚어 함께 끝낼 자신감을 북돋운다.",
+            "en": "Listen to the team’s concerns and highlight each person’s contribution to build confidence in finishing together."
+          }
+        }
+      },
+      "explanation": {
+        "L": {
+          "ko": "일의 의미와 참여 의욕을 다시 만드는 선택이에요.",
+          "en": "This starts by rebuilding meaning, ownership, and motivation."
+        },
+        "M": {
+          "ko": "실제 진행과 계획의 차이를 찾아 해결하는 선택이에요.",
+          "en": "This starts by comparing progress with the plan and resolving gaps."
+        }
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "code": "LLL",
+      "name": {
+        "ko": "변화의 불씨형",
+        "en": "Change Spark"
+      },
+      "summary": {
+        "ko": "방향을 제안하고, 공감대를 만들고, 다시 해 볼 힘을 모아요.",
+        "en": "You start with direction, build shared purpose, and help people find the energy to try."
+      },
+      "usefulWhen": {
+        "ko": "팀이 어디로 가야 할지 막막하거나 새로운 시도에 망설일 때 꺼내기 좋은 행동들이에요.",
+        "en": "Try these actions when the team is unsure where to go or hesitant to attempt something new."
+      },
+      "watchFor": {
+        "ko": "합의한 방향이 일정·담당·완료 기준으로 이어졌는지도 확인해 보세요.",
+        "en": "Check whether the shared direction has become tasks with owners, deadlines, and clear completion criteria."
+      },
+      "tryNext": {
+        "ko": "지금 떠올린 아이디어 하나를 담당자·기한·완료 기준이 있는 작업으로 바꿔 보세요.",
+        "en": "Turn one idea into a task with an owner, a deadline, and completion criteria."
+      }
+    },
+    {
+      "code": "LLM",
+      "name": {
+        "ko": "변화를 완수하는 형",
+        "en": "Change Finisher"
+      },
+      "summary": {
+        "ko": "함께 갈 방향을 맞춘 뒤, 진행 상황을 살펴 마무리해요.",
+        "en": "You build a shared direction, then monitor progress to carry it through."
+      },
+      "usefulWhen": {
+        "ko": "변화가 필요하면서도 마감이 분명한 프로젝트에서 활용해 볼 수 있어요.",
+        "en": "Try these actions when change is needed and the project also has a firm deadline."
+      },
+      "watchFor": {
+        "ko": "점검이 이어질 때 사람들이 왜 이 일을 하는지도 다시 나눠 보세요.",
+        "en": "As you check progress, revisit why the work matters to the people doing it."
+      },
+      "tryNext": {
+        "ko": "다음 점검에서 진행률과 함께 이번 작업의 의미를 각자 한 문장씩 말해 보세요.",
+        "en": "At the next check-in, ask everyone to share why their current task matters as well as their progress."
+      }
+    },
+    {
+      "code": "LML",
+      "name": {
+        "ko": "판을 짜는 응원형",
+        "en": "Team Builder and Encourager"
+      },
+      "summary": {
+        "ko": "새 방향을 제안하고 역할을 나눈 뒤, 팀이 계속할 힘을 북돋워요.",
+        "en": "You propose a direction, organize roles, and help the team keep going."
+      },
+      "usefulWhen": {
+        "ko": "새 일을 시작하며 사람마다 맡을 자리를 찾아야 할 때 활용해 볼 수 있어요.",
+        "en": "Try these actions when starting something new and finding a place for each person to contribute."
+      },
+      "watchFor": {
+        "ko": "역할을 배정하기 전에 모두가 같은 방향에 동의했는지도 들어 보세요.",
+        "en": "Before assigning roles, check that everyone supports the direction."
+      },
+      "tryNext": {
+        "ko": "역할표를 확정하기 전에 각자가 이해한 목표를 한 문장씩 들어 보세요.",
+        "en": "Before finalizing roles, ask each person to describe the goal in one sentence."
+      }
+    },
+    {
+      "code": "LMM",
+      "name": {
+        "ko": "아이디어를 굴리는 형",
+        "en": "Idea Implementer"
+      },
+      "summary": {
+        "ko": "목표의 방향을 먼저 정하고, 구조와 점검으로 실행을 이어 가요.",
+        "en": "You start with a direction, then use structure and monitoring to put it into practice."
+      },
+      "usefulWhen": {
+        "ko": "막연한 아이디어를 실제 프로젝트로 옮길 때 활용해 볼 수 있어요.",
+        "en": "Try these actions when turning a vague idea into a working project."
+      },
+      "watchFor": {
+        "ko": "계획이 탄탄해도 팀원들이 그 방향에 공감하는지는 따로 확인해 보세요.",
+        "en": "Even with a solid plan, check whether people share the direction."
+      },
+      "tryNext": {
+        "ko": "진행 상황을 묻기 전에 각자 이 프로젝트에서 얻고 싶은 것을 들어 보세요.",
+        "en": "Before asking about progress, ask what each person hopes to gain from the project."
+      }
+    },
+    {
+      "code": "MLL",
+      "name": {
+        "ko": "사람을 잇는 추진형",
+        "en": "People Connector"
+      },
+      "summary": {
+        "ko": "현실적인 계획을 세운 뒤, 공감과 동기로 사람들을 움직여요.",
+        "en": "You make a practical plan, then build shared purpose and motivation."
+      },
+      "usefulWhen": {
+        "ko": "할 일은 정해져 있지만 사람들의 참여를 모아야 할 때 활용해 볼 수 있어요.",
+        "en": "Try these actions when the work is defined but people’s participation still needs to be built."
+      },
+      "watchFor": {
+        "ko": "서로 의욕이 있어도 담당과 완료 기준이 흐릿할 수 있어요.",
+        "en": "Even when people are motivated, responsibilities and completion criteria may remain unclear."
+      },
+      "tryNext": {
+        "ko": "다음 회의에서 가장 급한 작업 하나의 담당자와 완료 기준을 적어 보세요.",
+        "en": "At the next meeting, name the owner and completion criteria for the most urgent task."
+      }
+    },
+    {
+      "code": "MLM",
+      "name": {
+        "ko": "합의를 실행하는 형",
+        "en": "Consensus Implementer"
+      },
+      "summary": {
+        "ko": "계획을 세우고 사람들의 뜻을 모은 뒤, 진행을 확인해요.",
+        "en": "You plan the work, bring people together, and check progress."
+      },
+      "usefulWhen": {
+        "ko": "여러 이해관계자가 함께 정해진 결과를 만들어야 할 때 활용해 볼 수 있어요.",
+        "en": "Try these actions when different stakeholders need to produce an agreed result together."
+      },
+      "watchFor": {
+        "ko": "실행 중에도 처음 세운 목표가 여전히 적절한지 돌아보세요.",
+        "en": "During implementation, revisit whether the original goal still makes sense."
+      },
+      "tryNext": {
+        "ko": "일정 점검 전에 지금 목표를 바꿔야 할 이유가 있는지 한 번 물어보세요.",
+        "en": "Before checking the schedule, ask whether anything now calls for a change in the goal."
+      }
+    },
+    {
+      "code": "MML",
+      "name": {
+        "ko": "팀을 지탱하는 응원형",
+        "en": "Steady Encourager"
+      },
+      "summary": {
+        "ko": "계획과 역할을 정리하고, 지칠 때 다시 움직일 힘을 보태요.",
+        "en": "You organize plans and roles, then help people regain energy when they tire."
+      },
+      "usefulWhen": {
+        "ko": "반복되는 일을 여럿이 꾸준히 이어 가야 할 때 활용해 볼 수 있어요.",
+        "en": "Try these actions when a group needs to sustain recurring work."
+      },
+      "watchFor": {
+        "ko": "좋은 분위기와 별개로 결과가 계획대로 나오는지도 확인해 보세요.",
+        "en": "Alongside team morale, check whether results match the plan."
+      },
+      "tryNext": {
+        "ko": "최근 결과 하나를 목표와 비교하고 다음번에 고칠 점을 정해 보세요.",
+        "en": "Compare one recent result with its target and choose one improvement for next time."
+      }
+    },
+    {
+      "code": "MMM",
+      "name": {
+        "ko": "완성도를 지키는 형",
+        "en": "Quality Keeper"
+      },
+      "summary": {
+        "ko": "계획을 세우고, 역할을 나누고, 빠진 부분을 점검해요.",
+        "en": "You plan the work, define roles, and check what needs attention."
+      },
+      "usefulWhen": {
+        "ko": "일이 복잡하고 일정·품질을 안정적으로 지켜야 할 때 활용해 볼 수 있어요.",
+        "en": "Try these actions when complex work needs reliable timing and quality."
+      },
+      "watchFor": {
+        "ko": "정해진 일을 잘 해내는 것과 지금도 그 일을 해야 하는지는 별개의 질문이에요.",
+        "en": "Doing the agreed work well does not answer whether it is still the right work to do."
+      },
+      "tryNext": {
+        "ko": "다음 회의에서 우리가 지금 이 일을 하는 이유가 여전히 맞는지 물어보세요.",
+        "en": "At the next meeting, ask whether the original reason for the work still holds."
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "label": {
+        "ko": "1조",
+        "en": "Group 1"
+      }
+    },
+    {
+      "id": "2",
+      "label": {
+        "ko": "2조",
+        "en": "Group 2"
+      }
+    },
+    {
+      "id": "3",
+      "label": {
+        "ko": "3조",
+        "en": "Group 3"
+      }
+    },
+    {
+      "id": "4",
+      "label": {
+        "ko": "4조",
+        "en": "Group 4"
+      }
+    },
+    {
+      "id": "other",
+      "label": {
+        "ko": "미지정 / 기타",
+        "en": "Unspecified / Other"
+      }
+    }
+  ],
+  "ui": {
+    "start": {
+      "ko": "내가 먼저 할 행동 찾기",
+      "en": "Explore what I do first"
+    },
+    "choose": {
+      "ko": "1~7 중 두 행동의 우선순위에 가장 가까운 숫자를 골라 주세요.",
+      "en": "Choose a number from 1 to 7 to show which action you would prioritize."
+    },
+    "submit": {
+      "ko": "내 결과 확인하기",
+      "en": "See my result"
+    },
+    "saved": {
+      "ko": "반 통계에 반영됐어요.",
+      "en": "Your response has been included in the class statistics."
+    },
+    "saveFailed": {
+      "ko": "결과는 확인했지만 반 통계에 저장되지 않았어요. 다시 저장해 주세요.",
+      "en": "Your result is ready, but it was not saved to the class statistics. Please try saving again."
+    },
+    "waiting": {
+      "ko": "반 전체 결과는 발표자가 공개하면 볼 수 있어요.",
+      "en": "Class results will appear when the presenter reveals them."
+    },
+    "empty": {
+      "ko": "아직 완료한 응답이 없어요.",
+      "en": "No completed responses yet."
+    },
+    "thinAxis": {
+      "ko": "차이가 작아요. 상황에 따라 먼저 택하는 행동이 바뀔 수 있어요.",
+      "en": "The difference is small; your priority may change with the situation."
+    },
+    "footer": {
+      "ko": "어느 유형이 더 좋은지는 정해져 있지 않아요. 실제 팀에서는 두 행동을 함께 써야 해요.",
+      "en": "No type is inherently better. Real teams need both kinds of action."
+    },
+    "next": {
+      "ko": "다음",
+      "en": "Next"
+    },
+    "previous": {
+      "ko": "이전",
+      "en": "Back"
+    },
+    "language": {
+      "ko": "언어",
+      "en": "Language"
+    },
+    "progress": {
+      "ko": "{current} / {total}",
+      "en": "{current} / {total}"
+    },
+    "leftAction": {
+      "ko": "왼쪽 행동",
+      "en": "Left action"
+    },
+    "rightAction": {
+      "ko": "오른쪽 행동",
+      "en": "Right action"
+    },
+    "unanswered": {
+      "ko": "아직 응답하지 않았어요.",
+      "en": "Not answered yet."
+    },
+    "group": {
+      "ko": "조 선택",
+      "en": "Your group"
+    },
+    "nickname": {
+      "ko": "닉네임 (선택)",
+      "en": "Nickname (optional)"
+    },
+    "viewClass": {
+      "ko": "반 결과 보기",
+      "en": "View class results"
+    },
+    "retrySave": {
+      "ko": "다시 저장",
+      "en": "Retry saving"
+    },
+    "mixed": {
+      "ko": "우선순위가 비슷함",
+      "en": "Similar priority"
+    },
+    "axisPosition": {
+      "ko": "행동 선호 위치",
+      "en": "Action preference position"
+    },
+    "notAbility": {
+      "ko": "능력 점수가 아니라 이번 응답의 선호 위치예요.",
+      "en": "This is a preference position from your answers, not an ability score."
+    },
+    "midpointCount": {
+      "ko": "중간 응답 {count}/{total}개",
+      "en": "Midpoint responses: {count}/{total}"
+    },
+    "lCount": {
+      "ko": "리더십 쪽 응답 {count}개",
+      "en": "Leadership-leaning responses: {count}"
+    },
+    "mCount": {
+      "ko": "매니지먼트 쪽 응답 {count}개",
+      "en": "Management-leaning responses: {count}"
+    },
+    "publicNotice": {
+      "ko": "반 전체·조별 합계가 공개돼요. 조 미지정도 가능해요.",
+      "en": "Class and group aggregates will be shown. You may leave your group unspecified."
+    },
+    "sessionClosed": {
+      "ko": "응답이 마감되어 반 통계에는 반영되지 않았어요.",
+      "en": "Responses have closed, so this response was not included in the class statistics."
+    },
+    "similarOverall": {
+      "ko": "전체적으로 두 행동의 우선순위가 비슷하게 나왔어요.",
+      "en": "Overall, the two actions have similar priority in your responses."
+    }
+  },
+  "sources": [
+    {
+      "title": "John P. Kotter, What Leaders Really Do, HBR (1990; 2001 reprint)",
+      "url": "https://store.hbr.org/product/what-leaders-really-do/r0111f",
+      "localFile": "../w9_Article5-Kotter-Leadership-HBR-2001.pdf",
+      "note": "세 가지 활동 쌍이 이론적 출발점이다. 질문·채점·8유형은 이 수업 활동을 위해 별도로 설계했다."
+    },
+    {
+      "title": "Pew Research Center, Writing Survey Questions",
+      "url": "https://www.pewresearch.org/writing-survey-questions/",
+      "note": "표현·응답 선택지·순서가 응답에 영향을 줄 수 있다는 설계 참고. 이 테스트의 타당도를 입증하는 출처는 아니다."
+    }
+  ],
+  "defaultLocale": "ko",
+  "locales": [
+    "ko",
+    "en"
+  ],
+  "scale": {
+    "min": 1,
+    "max": 7,
+    "midpoint": 4,
+    "labels": [
+      {
+        "value": 1,
+        "label": {
+          "ko": "왼쪽을 확실히 먼저",
+          "en": "Definitely left first"
+        }
+      },
+      {
+        "value": 2,
+        "label": {
+          "ko": "왼쪽을 먼저",
+          "en": "Left first"
+        }
+      },
+      {
+        "value": 3,
+        "label": {
+          "ko": "왼쪽을 조금 먼저",
+          "en": "Slightly left first"
+        }
+      },
+      {
+        "value": 4,
+        "label": {
+          "ko": "두 행동의 우선순위가 비슷함",
+          "en": "Similar priority"
+        }
+      },
+      {
+        "value": 5,
+        "label": {
+          "ko": "오른쪽을 조금 먼저",
+          "en": "Slightly right first"
+        }
+      },
+      {
+        "value": 6,
+        "label": {
+          "ko": "오른쪽을 먼저",
+          "en": "Right first"
+        }
+      },
+      {
+        "value": 7,
+        "label": {
+          "ko": "오른쪽을 확실히 먼저",
+          "en": "Definitely right first"
+        }
+      }
+    ],
+    "help": {
+      "ko": "4는 단순히 둘 다 중요하다는 뜻이 아니라, 두 행동의 우선순위가 비슷하다는 뜻이에요. 경험이 없다면 이 상황을 상상해 주세요. 아직 고르지 않은 상태와 4는 달라요.",
+      "en": "4 means the two actions have similar priority, rather than simply that both matter. If the situation is unfamiliar, imagine yourself in it. An unanswered question is different from choosing 4."
+    }
+  },
+  "scoring": {
+    "neutralBandPerItem": 0.5,
+    "axisOrder": [
+      "direction",
+      "people",
+      "execution"
+    ],
+    "note": {
+      "ko": "중립 구간은 수업용 표시 기준이며 검증된 진단 절단점이 아닙니다.",
+      "en": "The neutral band is a classroom display rule, not a validated diagnostic cutoff."
+    }
+  },
+  "mixedProfile": {
+    "name": {
+      "ko": "혼합형",
+      "en": "Mixed preference"
+    },
+    "summary": {
+      "ko": "한쪽으로 분류하지 않은 축이 있어요. 세 축의 결과를 함께 살펴보세요.",
+      "en": "At least one axis is within the neutral band. Read the three axes together."
+    },
+    "neutralAxis": {
+      "ko": "이번 응답에서는 두 행동의 우선순위 차이가 작아요.",
+      "en": "Your responses show a small difference in priority between these actions."
+    },
+    "tryNext": {
+      "ko": "비슷하게 나온 축에서 질문별 답이 모두 중간이었는지, 상황마다 양쪽으로 갈렸는지 살펴보세요.",
+      "en": "On a neutral axis, check whether you chose the midpoint throughout or preferred different sides in different situations."
+    }
+  }
+}

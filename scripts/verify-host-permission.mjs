@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import { createHash, randomBytes } from 'node:crypto';
+import { ownsRoom } from '../lib/host-permission.mjs';
+const keyA = randomBytes(32).toString('base64url'), keyB = randomBytes(32).toString('base64url');
+const hash = token => createHash('sha256').update(token).digest('hex');
+assert.equal(ownsRoom(keyA, hash(keyA)), true, 'owner can manage their room');
+assert.equal(ownsRoom(keyB, hash(keyA)), false, 'another room owner cannot manage this room');
+assert.equal(ownsRoom(randomBytes(32).toString('base64url'), hash(keyA)), false, 'participant-like token does not confer hosting rights');
+assert.equal(ownsRoom(keyA, null), false, 'existing admin-only room does not acquire a public owner');
+assert.equal(ownsRoom(keyA, keyA), false, 'database stores a hash, not the raw key');
+for (const invalid of [undefined,null,'',keyA.slice(1),keyA+'a','<script>']) assert.equal(ownsRoom(invalid,hash(keyA)),false);
+console.log('PASS: host capability isolation, malformed keys, admin-only rooms, hashed storage');
